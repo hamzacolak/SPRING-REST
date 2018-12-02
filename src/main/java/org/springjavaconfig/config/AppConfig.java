@@ -1,4 +1,4 @@
-package org.springjavaconfig.config;
+ package org.springjavaconfig.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
