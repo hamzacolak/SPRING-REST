@@ -25,7 +25,7 @@ public class BaseEntity implements Serializable, Base {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID")
-	private Long id;
+	private int id;
 
 	@Column(nullable = false, updatable = false, name="CREATE_DATE")//automatically
     @Temporal(TemporalType.TIMESTAMP)
@@ -37,11 +37,11 @@ public class BaseEntity implements Serializable, Base {
     @LastModifiedDate //automatically
     private Date updateDate;
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

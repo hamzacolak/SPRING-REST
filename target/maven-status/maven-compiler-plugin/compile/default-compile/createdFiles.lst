@@ -1,0 +1,11 @@
+org\springjavaconfig\dao\SubCategoryDao.class
+org\springjavaconfig\entities\SubCategory.class
+org\springjavaconfig\config\HibernateConfig.class
+org\springjavaconfig\service\MainCategoryService.class
+org\springjavaconfig\entities\MainCategory.class
+org\springjavaconfig\config\AppConfig.class
+org\springjavaconfig\config\ApplicationInitializer.class
+org\springjavaconfig\service\SubCategoryService.class
+org\springjavaconfig\core\entity\BaseEntity.class
+org\springjavaconfig\dao\MainCategoryDao.class
+org\springjavaconfig\core\entity\Base.class

@@ -12,6 +12,6 @@ import org.springjavaconfig.entities.SubCategory;
 public interface SubCategoryDao extends JpaRepository<SubCategory,Integer>{
 
 	@Query("SELECT p FROM SubCategory p where p.mainCategory.id=:mainCategoryId")
-	public List<SubCategory> getListByMainCategoryId(@Param("mainCategoryId") Long  mainCategoryId);
+	public List<SubCategory> getListByMainCategoryId(@Param("mainCategoryId") int  mainCategoryId);
 	
 }
